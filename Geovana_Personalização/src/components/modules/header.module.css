@@ -1,0 +1,43 @@
+/*container principal do header*/
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 11vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.349);
+}
+
+/*logo da empresa presente no header*/
+.header img {
+    height: 65px;
+    width: 65px;
+}
+
+/*menu que contem as duas navs ("galeria" e "como funciona?")*/
+.header menu {
+    display: flex;
+    padding: 5px;
+    width: 75%;
+    align-items: center;
+    justify-content: center
+}
+
+/*navs*/
+.header menu nav {
+    color: white;
+    cursor: pointer;
+    padding: 0 2em;
+}
+
+/*botão presente no header*/
+.header button {
+    all: unset;
+    background-color: #046BD2;
+    background-image: linear-gradient(to right, #046BD2, #227cd6);
+    padding: 12px;
+    border-radius: 90px;
+    color: white;
+    cursor: pointer;
+}
