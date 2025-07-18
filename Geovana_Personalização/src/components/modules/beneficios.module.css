@@ -1,0 +1,24 @@
+/*Container principal do componente*/
+.container_section {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(221, 221, 221);
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0.5em;
+}
+
+/*3 divs dentro do container principal*/
+.container_section div {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+/*imagens presentes em cada um das 3 divs*/
+.container_section div > img {
+    width: 5em ;
+    height: 5em;
+}
+
