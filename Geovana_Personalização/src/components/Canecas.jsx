@@ -9,34 +9,52 @@ import CanecaComBombons from "../assets/canecas-imagens/canecacombombons.png"
 function Canecas() {
     return(
         <div className={styles.sessaoCanecas}>
-            <div>
-                <img src={CanecaDeCerâmica} alt="Imagem de Caneca de cerâmica" />
-                <a href="https://wa.me/5511952493394?text=Ol%C3%A1,+Geovana!+Tenho+interesse+em+uma+Caneca+de+Cer%C3%A2mica!"><p>Caneca de cerâmica</p></a>
-                <h2>R$ 29,90-R$39,90 </h2>             
+            <div className={styles.title}>
+                <h1>Canecas</h1>
+                <p>Personalizáveis</p>
             </div>
 
-            <div>
-                <img src={CanecaDePolimero} alt="Caneca de Polímero" />
-                <a href="https://wa.me/5511952493394?text=Ol%C3%A1,+Geovana!+Tenho+interesse+em+uma+Caneca+de+Pol%C3%ADmero!"><p>Caneca de Polímero</p></a>
-                <h2>R$ 24,90</h2>                                                 
-            </div>
 
-            <div>
-                <img src={CanecaMagica} alt="Imagem de Caneca Mágica" />
-                <a href="https://wa.me/5511952493394?text=Ol%C3%A1,+Geovana!+Tenho+interesse+em+uma+Caneca+M%C3%A1gica!"><p>Caneca Mágica</p></a>
-                <h2>R$ 49,90</h2>
-            </div>
+            <div className={styles.grid}>
+                <a href="https://wa.me/5511952493394?text=Ol%C3%A1,+Geovana!+Tenho+interesse+em+uma+Caneca+de+Cer%C3%A2mica!">
+                    <div className={styles.produtos}>
+                        <img src={CanecaDeCerâmica} alt="Imagem de Caneca de cerâmica" />
+                        <p>Caneca de cerâmica</p>
+                        <p className={styles.preco}>R$ 29,90 à R$39,90 </p>
+                    </div>
+                </a>
 
-            <div>
-                <img src={CanecaCromada} alt="Imagem de Caneca Cromada" />
-                <a href="https://wa.me/5511952493394?text=Ol%C3%A1,+Geovana!+Tenho+interesse+em+uma+Caneca+Cromada!"><p>Caneca Cromada</p></a>
-                <h2>R$ 49,90</h2>
-            </div>
+                <a href="https://wa.me/5511952493394?text=Ol%C3%A1,+Geovana!+Tenho+interesse+em+uma+Caneca+de+Pol%C3%ADmero!">
+                    <div className={styles.produtos}>
+                        <img src={CanecaDePolimero} alt="Caneca de Polímero" />
+                        <p>Caneca de Polímero</p>
+                        <p className={styles.preco}>R$ 24,90</p>
+                    </div>
+                </a>
 
-            <div>
-                <img src={CanecaComBombons} alt="Imagem de Caneca de Cerâmica + Bombons" />
-                <a href="https://wa.me/5511952493394?text=Ol%C3%A1,+Geovana!+Tenho+interesse+em+uma+Caneca+de+Cer%C3%A2mica+com+Bombons!"><p>Caneca de Cerâmica + Bombons</p></a>
-                <h2>R$ 44,90</h2>
+                <a href="https://wa.me/5511952493394?text=Ol%C3%A1,+Geovana!+Tenho+interesse+em+uma+Caneca+M%C3%A1gica!">
+                    <div className={styles.produtos}>
+                        <img src={CanecaMagica} alt="Imagem de Caneca Mágica" />
+                        <p>Caneca Mágica</p>
+                        <p className={styles.preco}>R$ 49,90</p>
+                    </div>
+                </a>
+
+                <a href="https://wa.me/5511952493394?text=Ol%C3%A1,+Geovana!+Tenho+interesse+em+uma+Caneca+Cromada!">
+                    <div className={styles.produtos}>
+                        <img src={CanecaCromada} alt="Imagem de Caneca Cromada" />
+                        <p>Caneca Cromada</p>
+                        <p className={styles.preco}>R$ 49,90</p>
+                    </div>
+                </a>
+
+                <a href="https://wa.me/5511952493394?text=Ol%C3%A1,+Geovana!+Tenho+interesse+em+uma+Caneca+de+Cer%C3%A2mica+com+Bombons!">
+                    <div className={styles.produtos}>
+                        <img src={CanecaComBombons} alt="Imagem de Caneca de Cerâmica + Bombons" />
+                        <p>Caneca de Cerâmica + Bombons</p>
+                        <p className={styles.preco}>R$ 44,90</p>
+                    </div>
+                </a>
             </div>
         </div>
     )

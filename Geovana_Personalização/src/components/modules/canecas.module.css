@@ -1,0 +1,64 @@
+/*Container global que define a sessão*/
+.sessaoCanecas {
+    background-color: #C0E5CE;
+    display: block;
+    width: 100%;
+    height: 55vh;
+}
+
+/*Titulo e parágrafo soltos dentro do container acima do grid*/
+.title {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.562);
+}
+
+/*Container que contém os cards dos produtos*/
+.grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+/*tag de link que envolve todo o container de produto*/
+.grid a {
+    text-decoration: none;
+}
+
+/*cards dos produtos*/
+.produtos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    background-color: rgb(255, 255, 255);
+    height: 270px;
+    max-width: 200px;
+    min-width: 200px;
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.479);
+}
+
+/*imagens das canecas dentro dos cards de produtos*/
+.produtos img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 2em;
+}
+
+/*paragrafo e titulo dentro dos cards de produtos (abaixo das imagens)*/
+.produtos p {
+    color: rgb(19, 19, 19);
+    text-align: center;
+}
+
+/*paragrafos de preço*/
+.produtos p.preco {
+    font-weight: bold;
+}
