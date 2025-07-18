@@ -2,9 +2,10 @@
 .container_section {
     display: flex;
     flex-direction: row;
-    background-color: rgb(221, 221, 221);
+    background-color: #F0F5FA;
     align-items: center;
     justify-content: space-evenly;
+    height: 30vh;
     padding: 0.5em;
 }
 
@@ -18,7 +19,7 @@
 
 /*imagens presentes em cada um das 3 divs*/
 .container_section div > img {
-    width: 5em ;
-    height: 5em;
+    width: 7em ;
+    height: 7em;
 }
 
