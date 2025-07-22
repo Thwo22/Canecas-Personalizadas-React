@@ -1,18 +1,28 @@
 /*Container global que define a sessão*/
-.sessaoCanecas {
+.sessaoCanecas, .sessaoGarrafas, .sessaoXicaras, .sessaoCopos {
     background-color: #C0E5CE;
     display: block;
     width: 100%;
     height: 60vh;
 }
 
+.sessaoGarrafas, .sessaoCopos {
+    background-color: rgb(249, 249, 249);
+}
+
 /*Titulo e parágrafo soltos dentro do container acima do grid*/
-.title {
+.title, .title_black {
     width: 100%;
     padding: 10px;
     text-align: center;
     color: white;
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.562);
+}
+
+/*Titulos para sessões de fundo branco*/
+.title_black {
+    color: black;
+    text-shadow: none;
 }
 
 /*Container que contém os cards dos produtos*/

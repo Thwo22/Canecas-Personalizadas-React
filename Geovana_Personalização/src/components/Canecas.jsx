@@ -1,4 +1,4 @@
-import styles from "./modules/canecas.module.css"
+import styles from "./modules/sessoes.module.css"
 import CanecaDeCerâmica from "../assets/canecas-imagens/canecadeceramica.png"
 import CanecaDePolimero from '../assets/canecas-imagens/canecadepolimero.png'
 import CanecaMagica from "../assets/canecas-imagens/canecamagica.png"
