@@ -24,11 +24,18 @@
     justify-content: center
 }
 
-/*navs*/
-.header menu nav {
+/*estilização das <p> dentro de <nav>*/
+nav {
+    display: flex;
+}
+nav p{
     color: white;
     cursor: pointer;
     padding: 0 2em;
+}
+nav p > a {
+    color: inherit;  
+    text-decoration: none;
 }
 
 /*botão presente no header*/
