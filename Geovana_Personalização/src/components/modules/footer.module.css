@@ -1,0 +1,58 @@
+/*todo o contaier responsavel por exibir informações da empresa*/
+.sobre_empresa {
+    background-color:  #C0E5CE;
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+
+    padding: 5em;
+}
+
+/*todos os h2 das 3 divs presentes no footer da empresa*/
+.div_info h2 {
+    text-align: center;
+    margin-bottom: 0.3em;
+}
+
+/*todas as imagens presentes no footer da empresa*/
+.div_info img {
+    width: 20px;
+    height: 20px;
+    margin-right: 4px;
+}
+
+/*container de redes sociais da empresa (h2)*/
+.redes_sociais {
+    text-align: center;
+}
+/*imagens presentes no container de redes sociais da empresa*/
+.redes_sociais img{
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+}
+/*paragrafos presentes no container de contato da empresa*/
+.contato p {
+    margin-bottom: 3px ;
+}
+
+/*container dedicado por exibir informações do desenvolvedor do site*/
+.sobre_desenvolvedor {
+    background-color: rgb(26, 26, 26);
+    color: #a3a3a3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+/*imagem da vetra*/
+.sobre_desenvolvedor img {
+    width: 62px;
+    height: 62px;
+}
+/*redes sociais do desenvolvedor*/
+.redes_dev img{
+    width: 32px;
+    height: 32px;
+}
