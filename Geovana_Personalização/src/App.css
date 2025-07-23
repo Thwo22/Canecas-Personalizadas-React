@@ -1,11 +1,16 @@
+/*estilizações do componente header pra cima*/
 .topo {
     position: relative;
     width: 100%;
 }
-
 .topo header {
     position: absolute;
     top: 0;
     left: 0;
     z-index: 10;
 }
+
+/*Componente de divisão (beneficios.jsx)*/
+.divisor {
+    margin-bottom: 6em;
+} 

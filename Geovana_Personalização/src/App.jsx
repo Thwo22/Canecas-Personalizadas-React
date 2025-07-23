@@ -6,6 +6,7 @@ import SessaoCanecas from './components/Canecas.jsx'
 import SessaoGarrafas from './components/Garrafas.jsx'
 import SessaoXicaras from  './components/Xicaras.jsx'
 import SessaoCopos from './components/Copos.jsx'
+import Footer from './components/Footer.jsx'
 
 function App() {
 
@@ -25,6 +26,9 @@ function App() {
           <SessaoXicaras />
           <SessaoCopos />
         </div>
+      </div>
+      <div className='fim'>
+        <Footer />
       </div>
     </>
   )

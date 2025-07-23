@@ -1,19 +1,44 @@
+/*shape divider branco*/
+.custom_shape_divider_top_1753224574 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom_shape_divider_top_1753224574 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 128px;
+}
+
+.custom_shape_divider_top_1753224574 .shape_fill {
+    fill: #FAFAFA;
+}
+
 /*Container global que define a sessão*/
 .sessaoCanecas, .sessaoGarrafas, .sessaoXicaras, .sessaoCopos {
+    position: relative;
     background-color: #C0E5CE;
     display: block;
     width: 100%;
-    height: 60vh;
+    height: 80vh;
 }
 
 .sessaoGarrafas, .sessaoCopos {
-    background-color: rgb(249, 249, 249);
+    background-color:#FAFAFA;
+    margin-bottom: 5em;
 }
+
 
 /*Titulo e parágrafo soltos dentro do container acima do grid*/
 .title, .title_black {
     width: 100%;
     padding: 10px;
+    padding-top: 8em;
     text-align: center;
     color: white;
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.562);
@@ -21,6 +46,7 @@
 
 /*Titulos para sessões de fundo branco*/
 .title_black {
+    padding-top: 0em;
     color: black;
     text-shadow: none;
 }
