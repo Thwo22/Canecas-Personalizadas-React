@@ -4,9 +4,9 @@ import Album from "../routes/components_routes/album"
 function Galeria() {
     return(
         <>
-        <div>
-            <Header_route/>
-        </div>
+        <header>
+            <Header_route />
+        </header>
         <div>
             <Album />
         </div>

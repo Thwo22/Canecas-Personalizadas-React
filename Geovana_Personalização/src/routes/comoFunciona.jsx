@@ -1,6 +1,16 @@
+import Header_route from "../routes/components_routes/header_routes";
+import Tutorial_route from "./components_routes/tutorial_routes";
+
 function ComoFunciona() {
     return(
-        <h1>ola, mundo</h1>
+    <>
+        <header>
+            <Header_route/>
+        </header>
+        <div >
+            <Tutorial_route />
+        </div>
+    </>
     )
 }
 

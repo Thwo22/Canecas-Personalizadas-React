@@ -1,0 +1,24 @@
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom:1em ;
+    margin: 3em auto;
+    border-bottom: 1px solid;
+    width: 30%;
+}
+
+.passoApasso {
+    padding: 10px;
+    width: 70%;
+    margin: auto;
+}
+
+.passoApasso h1 {
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+.passoApasso p, ul {
+    margin-bottom: 1em;
+}

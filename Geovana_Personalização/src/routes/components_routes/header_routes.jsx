@@ -13,8 +13,12 @@ function Header_route() {
                         <Link to="/">Home</Link>
                     </p>
                     <p>
+                        <Link to="/galeria">Galeria</Link>
+                    </p>
+                    <p>
                         <Link to="/comoFunciona">Como funciona?</Link>
                     </p>
+                    
                 </nav>
             </menu>
             <button> Encomendar </button>
