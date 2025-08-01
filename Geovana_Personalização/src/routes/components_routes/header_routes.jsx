@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import styles from "../css_routes/header_routes.module.css"
 import logo from "../../assets/icons/foto-logo.png"
+import Botao from "../../components/botao"
 
 
 function Header_route() {
@@ -20,8 +21,9 @@ function Header_route() {
                     </p>
                     
                 </nav>
+                
             </menu>
-            <button> Encomendar </button>
+            <Botao/>
         </header>
     )
 }

@@ -1,0 +1,17 @@
+
+/*botão presente no header*/
+.botao {
+    all: unset;
+    background-color: #046BD2;
+    background-image: linear-gradient(to right, #046BD2, #227cd6);
+    padding: 12px;
+    border-radius: 90px;
+    color: white;
+    cursor: pointer;
+
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}

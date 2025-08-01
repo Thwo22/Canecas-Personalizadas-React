@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import styles from "../components/modules/footer.module.css"
 import vetraLogo from "../assets/icons/vetra-logo.png"
 import instaLogo from "../assets/icons/insta-logo.png"
@@ -15,20 +16,20 @@ function Footer() {
             <div className={styles.div_info}>
                 <h2>Explorar Páginas</h2>
                 <ul>
-                    <li><p>Galeria</p></li>
-                    <li><p>Como Funciona?</p></li>
+                    <li><Link to="/galeria">Galeria</Link></li>
+                    <li><Link to="/comoFunciona">Como Funciona?</Link></li>
                 </ul>
             </div>
             <div className={`${styles.div_info} ${styles.contato}`}>
                 <h2>Contato:</h2>
-                <p><img src={telefoneLogo} alt="Telefone" />(11)xxxxx-xxxx</p>
-                <p><img src={emailLogo} alt="email" />thwo28391@gmail.com</p>
+                <p><img src={telefoneLogo} alt="Telefone" />(11) 95249-3394</p>
+                <p><img src={emailLogo} alt="email" /><a href="mailto:geovanabeatriz888@gmail.com">geovanabeatriz888@gmail.com</a></p>
             </div>
             <div className={`${styles.div_info} ${styles.redes_sociais}`}>
                 <h2>Redes Sociais:</h2>
                 <div className={styles.redes_da_empresa}>
-                    <img src={instaLogo} alt="Instagram" />
-                    <img src={faceLogo} alt="Facebook" />
+                    <a href="https://www.instagram.com/geovana.personalizacao" target="blank"><img src={instaLogo} alt="Instagram" /></a>
+                    <a href="https://www.facebook.com/profile.php?id=100094998411396" target="blank"><img src={faceLogo} alt="Facebook" /></a>
                 </div>
             </div>
         </div>
@@ -36,9 +37,9 @@ function Footer() {
             <p>Site Desenvolvido por Thiago Santos&copy;</p>
             <img src={vetraLogo} alt="Vetra Logo" />
             <div className={styles.redes_dev}>
-                <img src={instaLogo} alt="Instagram" />
-                <img src={linkedinLogo} alt="Linkedin" />
-                <img src={gitLogo} alt="Gihub" />
+                <a href="https://www.instagram.com/vetra_code" target="blank"><img src={instaLogo} alt="Instagram" /></a>
+                <a href="https://www.linkedin.com/in/thiago-santos-b23b8a1a4" target="blank"><img src={linkedinLogo} alt="Linkedin" /></a>
+                <a href="https://github.com/Thwo22" target="blank"><img src={gitLogo} alt="Gihub" /></a>
             </div>
         </div>
     </footer>

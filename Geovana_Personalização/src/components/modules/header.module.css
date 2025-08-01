@@ -37,14 +37,3 @@ nav p > a {
     color: inherit;  
     text-decoration: none;
 }
-
-/*botão presente no header*/
-.header button {
-    all: unset;
-    background-color: #046BD2;
-    background-image: linear-gradient(to right, #046BD2, #227cd6);
-    padding: 12px;
-    border-radius: 90px;
-    color: white;
-    cursor: pointer;
-}

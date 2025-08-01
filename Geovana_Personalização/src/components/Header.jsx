@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import styles from "./modules/header.module.css"
 import logo from "../assets/icons/foto-logo.png"
+import Botao from "../components/botao"
 
 function Header() {
     return(
@@ -16,7 +17,7 @@ function Header() {
                     </p>
                 </nav>
             </menu>
-            <button> Encomendar </button>
+            <Botao/>
         </header>
     )
 }
