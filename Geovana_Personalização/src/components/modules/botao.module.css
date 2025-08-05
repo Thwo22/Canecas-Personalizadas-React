@@ -15,3 +15,21 @@
 a {
     text-decoration: none;
 }
+
+/*Smartphones pequenos*/
+@media screen and (max-width: 480px) {
+    /*botão presente no header*/
+    .botao {
+    padding: 10px;
+    font-size: 13px;
+}
+}
+
+/*smartphones medios - grandes*/
+@media screen and (min-width: 481px) and (max-width:767px) {
+    /*botão presente no header*/
+    .botao {
+    padding: 9px;
+    font-size: 13px;
+}
+}

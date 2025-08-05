@@ -23,3 +23,42 @@
     height: 7em;
 }
 
+/*Smartphones pequenos*/
+@media screen and (max-width:480px) {
+    /*Container principal do componente*/
+.container_section {
+    padding: 0em;
+}
+
+/*imagens presentes em cada um das 3 divs*/
+.container_section div > img {
+    width: 3.5em ;
+    height: 3.5em;
+}
+
+.container_section > div > p {
+    font-size: 10.5px;
+    text-align: center;
+}
+}
+
+/*smartphones medios-grandes*/
+@media screen and (min-width:481px) and (max-width:767px) {
+
+    /*Container principal do componente*/
+    .container_section {
+    padding: 0.3em;
+}
+
+/*imagens presentes em cada um das 3 divs*/
+    .container_section div > img {
+    width: 5em;
+    height: 5em;
+}
+
+    .container_section > div > p {
+    font-size: 12.5px;
+    text-align: center;
+}
+}
+

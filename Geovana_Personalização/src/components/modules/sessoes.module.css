@@ -100,3 +100,188 @@
 .produtos p.preco {
     font-weight: bold;
 }
+
+/*--------------------------------------------------------MEDIAS QUERIES PARA SMARTPHONES PEQUENOS------------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 524px) {
+    /*shape divider branco*/
+
+.custom_shape_divider_top_1753224574 svg {
+    height: 50px;
+}
+
+/*Container global que define a sessão*/
+.sessaoCanecas, .sessaoGarrafas, .sessaoXicaras, .sessaoCopos {
+    width: 100%;
+    height: 95vh;
+}
+
+/*ajustes especificos para medias queries*/
+/*Container global que define a sessão*/
+.sessaoXicaras, .sessaoCopos {
+    height: 70vh;
+}
+
+.sessaoGarrafas, .sessaoCopos {
+    margin-bottom: 2em;
+}
+
+/*Titulo e parágrafo soltos dentro do container acima do grid*/
+.title, .title_black {
+    padding: 5px;
+    padding-top: 4em;
+}
+
+/*Titulos para sessões de fundo branco*/
+.title_black {
+    padding-top: 0em;
+}
+
+/*Container que contém os cards dos produtos*/
+.grid {
+    margin-top: 1em;
+}
+
+/*cards dos produtos*/
+.produtos {
+    height: 160px;
+    max-width: 120px;
+    min-width: 120px;
+}
+
+/*imagens das canecas dentro dos cards de produtos*/
+.produtos img {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 0.5em;
+}
+
+/*paragrafo e titulo dentro dos cards de produtos (abaixo das imagens)*/
+.produtos p {
+    font-size: 13px;
+}
+}
+
+@media screen and (min-width: 525px) and (max-width:709px) {
+    /*shape divider branco*/
+
+.custom_shape_divider_top_1753224574 svg {
+    height: 50px;
+}
+
+/*Container global que define a sessão*/
+.sessaoCanecas, .sessaoGarrafas, .sessaoXicaras, .sessaoCopos {
+    width: 100%;
+    height: 80vh;
+}
+
+.sessaoGarrafas {
+    height: 77vh;
+}
+
+/*ajustes especificos para medias queries*/
+/*Container global que define a sessão*/
+.sessaoXicaras, .sessaoCopos {
+    height: 60vh;
+}
+
+.sessaoGarrafas, .sessaoCopos {
+    margin-bottom: 2em;
+}
+
+/*Titulo e parágrafo soltos dentro do container acima do grid*/
+.title, .title_black {
+    padding: 5px;
+    padding-top: 4em;
+}
+
+/*Titulos para sessões de fundo branco*/
+.title_black {
+    padding-top: 0em;
+}
+
+/*Container que contém os cards dos produtos*/
+.grid {
+    margin-top: 1em;
+}
+
+/*cards dos produtos*/
+.produtos {
+    height: 170px;
+    max-width: 130px;
+    min-width: 130px;
+}
+
+/*imagens das canecas dentro dos cards de produtos*/
+.produtos img {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 1em;
+}
+
+/*paragrafo e titulo dentro dos cards de produtos (abaixo das imagens)*/
+.produtos p {
+    font-size: 13px;
+}
+}
+
+/*--------------------------------------------------------MEDIAS QUERIES PARA SMARTPHONES MEDIOS GRANDES------------------------------------------------------------------------------------*/
+
+@media screen and (min-width: 710px) and (max-width:1023px) {
+    /*shape divider branco*/
+
+.custom_shape_divider_top_1753224574 svg {
+    height: 60px;
+}
+
+/*Container global que define a sessão*/
+.sessaoCanecas, .sessaoGarrafas, .sessaoXicaras, .sessaoCopos {
+    width: 100%;
+    height:60vh;
+}
+
+/*ajustes especificos para medias queries*/
+/*Container global que define a sessão*/
+.sessaoXicaras, .sessaoCopos {
+    height: 60vh;
+}
+
+.sessaoGarrafas, .sessaoCopos {
+    margin-bottom: 2em;
+}
+
+/*Titulo e parágrafo soltos dentro do container acima do grid*/
+.title, .title_black {
+    padding: 5px;
+    padding-top: 4em;
+}
+
+/*Titulos para sessões de fundo branco*/
+.title_black {
+    padding-top: 0em;
+}
+
+/*Container que contém os cards dos produtos*/
+.grid {
+    margin-top: 1em;
+}
+
+/*cards dos produtos*/
+.produtos {
+    height: 170px;
+    max-width: 130px;
+    min-width: 130px;
+}
+
+/*imagens das canecas dentro dos cards de produtos*/
+.produtos img {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 1em;
+}
+
+/*paragrafo e titulo dentro dos cards de produtos (abaixo das imagens)*/
+.produtos p {
+    font-size: 14px;
+}
+}
