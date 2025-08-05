@@ -1,7 +1,7 @@
 import './App.css'
 import Header from "./components/Header.jsx"
 import BannerTopo from './components/Banner-topo.jsx'
-import Beneficios from './components/beneficios.jsx'
+import Beneficios from './components/Beneficios.jsx'
 import SessaoCanecas from './components/Canecas.jsx'
 import SessaoGarrafas from './components/Garrafas.jsx'
 import SessaoXicaras from  './components/Xicaras.jsx'
