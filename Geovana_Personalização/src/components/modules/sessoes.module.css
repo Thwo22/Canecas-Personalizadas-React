@@ -25,7 +25,6 @@
     background-color: #C0E5CE;
     display: block;
     width: 100%;
-    height: 80vh;
 }
 
 .sessaoGarrafas, .sessaoCopos {
@@ -113,13 +112,6 @@
 /*Container global que define a sessão*/
 .sessaoCanecas, .sessaoGarrafas, .sessaoXicaras, .sessaoCopos {
     width: 100%;
-    height: 55vh;
-}
-
-/*ajustes especificos para medias queries*/
-/*Container global que define a sessão*/
-.sessaoXicaras, .sessaoCopos {
-    height: 40vh;
 }
 
 .sessaoGarrafas, .sessaoCopos {
@@ -169,22 +161,6 @@
     height: 50px;
 }
 
-/*Container global que define a sessão*/
-.sessaoCanecas, .sessaoGarrafas, .sessaoXicaras, .sessaoCopos {
-    width: 100%;
-    height: 80vh;
-}
-
-.sessaoGarrafas {
-    height: 77vh;
-}
-
-/*ajustes especificos para medias queries*/
-/*Container global que define a sessão*/
-.sessaoXicaras, .sessaoCopos {
-    height: 60vh;
-}
-
 .sessaoGarrafas, .sessaoCopos {
     margin-bottom: 2em;
 }
@@ -232,18 +208,6 @@
 
 .custom_shape_divider_top_1753224574 svg {
     height: 60px;
-}
-
-/*Container global que define a sessão*/
-.sessaoCanecas, .sessaoGarrafas, .sessaoXicaras, .sessaoCopos {
-    width: 100%;
-    height:60vh;
-}
-
-/*ajustes especificos para medias queries*/
-/*Container global que define a sessão*/
-.sessaoXicaras, .sessaoCopos {
-    height: 60vh;
 }
 
 .sessaoGarrafas, .sessaoCopos {
