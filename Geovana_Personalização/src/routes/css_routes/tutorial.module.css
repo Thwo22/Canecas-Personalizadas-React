@@ -5,7 +5,8 @@
     padding-bottom:1em ;
     margin: 3em auto;
     border-bottom: 1px solid;
-    width: 30%;
+    width: auto;
+    text-align: center;
 }
 
 .passoApasso {
@@ -17,10 +18,12 @@
 .passoApasso h1 {
     font-weight: bold;
     margin-bottom: 0.5em;
+    text-align: left;
 }
 
 .passoApasso p, ul {
     margin-bottom: 1em;
+    text-align: left;
 }
 
 img {
