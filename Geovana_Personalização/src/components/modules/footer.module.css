@@ -60,17 +60,17 @@
 @media screen and (max-width:480px) {
     /*todo o contaier responsavel por exibir informações da empresa*/
 .sobre_empresa {
-    padding: 2em;
+    padding: 1em;
 }
 
 /*todos os h2 das 3 divs presentes no footer da empresa*/
 .div_info h2 {
-    font-size: 15px;
+    font-size: 12px;
     margin-bottom: 0.5em;
 }
 
 .div_info p, li {
-    font-size: 13px;
+    font-size: 11px;
 }
 
 /*todas as imagens presentes no footer da empresa*/

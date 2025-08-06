@@ -113,13 +113,13 @@
 /*Container global que define a sessão*/
 .sessaoCanecas, .sessaoGarrafas, .sessaoXicaras, .sessaoCopos {
     width: 100%;
-    height: 95vh;
+    height: 55vh;
 }
 
 /*ajustes especificos para medias queries*/
 /*Container global que define a sessão*/
 .sessaoXicaras, .sessaoCopos {
-    height: 70vh;
+    height: 40vh;
 }
 
 .sessaoGarrafas, .sessaoCopos {

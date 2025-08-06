@@ -28,6 +28,7 @@
     /*Container principal do componente*/
 .container_section {
     padding: 0em;
+    height: 15vh;
 }
 
 /*imagens presentes em cada um das 3 divs*/

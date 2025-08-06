@@ -41,7 +41,7 @@ nav p > a {
 /*SMARTPHONES PEQUENOS*/
 @media screen and (max-width: 480px){
     .header {
-    height: 13vh;
+    height: 8vh;
     justify-content: space-evenly;
 }
 
@@ -53,12 +53,12 @@ nav p > a {
 
 /*menu que contem as duas navs ("galeria" e "como funciona?")*/
     .header menu {
-    width: 55%;
+    width: 50%;
 }
 
 /*estilização das <p> dentro de <nav>*/
     nav p{
-    padding: 0 1em;
+    padding: 0 0.5em;
     font-size: 14px;
 }
 }

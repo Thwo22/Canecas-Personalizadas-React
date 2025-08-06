@@ -6,13 +6,13 @@
 /*Smartphones pequenos*/
 @media screen and (max-width: 480px){
     .BannerTopo img {
-    height: 50vh;
+    height: 30vh;
 }
 }
 
 /*Smartphones medios - grandes*/
 @media screen and (min-width: 481px) and (max-width: 767px){
     .BannerTopo img {
-    height: 70vh;
+    height: 60vh;
 }
 }
