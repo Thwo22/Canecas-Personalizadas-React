@@ -89,13 +89,23 @@ nav p > a {
 
 /*TABLETS MEDIOS E GRANDES*/
 @media screen and (min-width: 768px) and (max-width:1023px){
-    .header {
-    height: 13vh;
+
+.header {
+    height: 11vh;
 }
 
 /*logo da empresa presente no header*/
-    .header img {
-    height: 55px;
-    width: 55px;
+.header img {
+    height: 65px;
+    width: 65px;
+}
+
+/*menu que contem as duas navs ("galeria" e "como funciona?")*/
+.header menu {
+    width: 55%;
+}
+
+nav p{
+    font-size: 17px;
 }
 }

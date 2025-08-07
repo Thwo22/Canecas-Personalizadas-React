@@ -33,7 +33,7 @@ function tutorial_route() {
 
                 <p>Após definir todos os detalhes e confirmar sua arte, Enviaremos as <strong>Opções de Pagamento.</strong></p>
 
-                <h1>5. Produção  e Envio</h1>
+                <h1>3. Produção  e Envio</h1>
                 <p>Assim que o pagamento for confirmado, iniciamos a produção. Você pode escolher:</p>
                 <ul>
                     <li>Receber em Casa (envio pelo Uber Entregas)</li>
@@ -42,9 +42,9 @@ function tutorial_route() {
                 <img src={gato_passo3} alt="imagem de entrega" />
                 
 
-                <h1>6. Prontinho!</h1>
+                <h1>4. Prontinho!</h1>
                 <p>Seu produto será entregue, do jeitinho que você imaginou!</p>
-                <img src={gato_passo4} alt="" />
+                <img src={gato_passo4} alt="gato segurando uma caneca" />
             </div>
 
         </div>
